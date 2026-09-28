@@ -10,6 +10,10 @@ SECTIONS
         *(.text*)
     }
 
+    .tohost : {
+        *(.tohost)
+    }
+
     .data : {
         *(.rodata*)
         *(.data*)
